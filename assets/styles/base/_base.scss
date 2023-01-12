@@ -1,0 +1,7 @@
+@import '../config/variables';
+
+/*=============== BASE ===============*/
+html, body {
+    font-family: $font;
+    background-color: $bg;
+}
