@@ -1,0 +1,85 @@
+/*=============== BASE ===============*/
+html, body {
+  font-family: "Crimson Pro", serif;
+  background-color: #D9CDF7;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .product {
+  width: 30em;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.container .product .rotation {
+  width: 33px;
+  height: 23px;
+  cursor: pointer;
+  padding: 8px 50px 0px 366px;
+}
+.container .product .couch {
+  max-width: 100%;
+  align-self: center;
+}
+.container .infos {
+  width: 20em;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+  padding-left: 20px;
+  gap: 12px;
+  color: #271A45;
+}
+.container .infos h4 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.container .infos h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+}
+.container .infos h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+.container .infos button {
+  width: 160px;
+  height: 32px;
+  margin-top: 8px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #271A45;
+  border-radius: 999px;
+  background-color: #D9CDF7;
+  border: 0.5px solid #271A45;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .infos button:hover {
+  color: white;
+  background-color: #271A45;
+}/*# sourceMappingURL=style.css.map */
